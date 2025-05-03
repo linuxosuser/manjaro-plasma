@@ -13,7 +13,6 @@ sudo pacman -S --needed pipewire-pulse --noconfirm
 sudo pacman -S --needed pipewire-roc --noconfirm
 sudo pacman -S --needed pipewire-v4l2 --noconfirm
 sudo pacman -S --needed pipewire-zeroconf --noconfirm
-sudo pacman -S --needed pipewire-session-manager --noconfirm
 sudo pacman -S --needed wireplumber --noconfirm
 sudo pacman -S --needed gst-plugin-pipewire --noconfirm
 sudo pacman -S --needed lib32-libpipewire --noconfirm
@@ -38,6 +37,8 @@ sudo pacman -S --needed gstreamer --noconfirm
 sudo pacman -S --needed lib32-gstreamer --noconfirm
 sudo pacman -S --needed gstreamer-vaapi --noconfirm
 sudo pacman -S --needed libdvdcss --noconfirm
+sudo pacman -S --needed v4l2loopback-dkms --noconfirm
+sudo pacman -S --needed v4l2loopback-utils --noconfirm
 sudo pacman -S --needed firefox --noconfirm
 sudo pacman -S --needed firefox-i18n-hu --noconfirm
 sudo pacman -S --needed firefox-ublock-origin --noconfirm
@@ -53,6 +54,7 @@ sudo pacman -S --needed rhythmbox --noconfirm
 sudo pacman -S --needed krecorder --noconfirm
 sudo pacman -S --needed smplayer --noconfirm
 sudo pacman -S --needed korganizer --noconfirm
+sudo pacman -S --needed kdepim-addons --noconfirm
 sudo pacman -S --needed partitionmanager --noconfirm
 sudo pacman -S --needed kamoso --noconfirm
 sudo pacman -S --needed gimp --noconfirm
