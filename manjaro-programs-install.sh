@@ -25,6 +25,7 @@ sudo pacman -S --needed lib32-alsa-plugins --noconfirm
 sudo pacman -S --needed alsa-lib --noconfirm
 sudo pacman -S --needed lib32-alsa-lib --noconfirm
 sudo pacman -S --needed alsa-firmware --noconfirm
+sudo pacman -S --needed alsa-ucm-conf --noconfirm
 sudo pacman -S --needed gst-plugins-good --noconfirm
 sudo pacman -S --needed lib32-gst-plugins-good --noconfirm
 sudo pacman -S --needed gst-plugins-bad --noconfirm
